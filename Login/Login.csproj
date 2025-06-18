@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CapaNeg\CapaNeg.csproj" />
+    <ProjectReference Include="..\CapaPres\CapaPres.csproj" />
+    <ProjectReference Include="..\Entidad\Entidad.csproj" />
+    <ProjectReference Include="..\Estadisticas\Estadisticas.csproj" />
+  </ItemGroup>
+
+</Project>
